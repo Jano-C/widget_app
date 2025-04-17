@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+import 'package:widget_app/presentation/screens/counter/counter_screen.dart';
 import 'package:widget_app/presentation/screens/screens.dart';
 
 
@@ -39,6 +40,14 @@ final appRouter = GoRouter(
     GoRoute(
       path: '/tutorial',
       builder: (context, state) => AppTutorialScreen(),
+    ),
+    GoRoute(
+      path: '/infinitescroll',
+      builder: (context, state) => InfiniteScrollScreen(),
+    ),
+    GoRoute(
+      path: '/counter_screen',
+      builder: (context, state) => CounterScreen(),
     ),
 
   ],
