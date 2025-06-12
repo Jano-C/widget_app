@@ -2,6 +2,7 @@ import 'package:go_router/go_router.dart';
 import 'package:widget_app/presentation/screens/screens.dart';
 
 
+
 // GoRouter configuration
 final appRouter = GoRouter(
 
@@ -19,5 +20,38 @@ final appRouter = GoRouter(
       path: '/cards',
       builder: (context, state) => CardsScreen(),
     ),
+    GoRoute(
+      path: '/progress',
+      builder: (context, state) => ProgressScreen(),
+    ),
+    GoRoute(
+      path: '/snackbars',
+      builder: (context, state) => SnackbarScreen(),
+    ),
+    GoRoute(
+      path: '/animated',
+      builder: (context, state) => AnimatedScreen(),
+    ),
+    GoRoute(
+      path: '/ui-controls',
+      builder: (context, state) => UiControlsScreen(),
+    ),
+    GoRoute(
+      path: '/tutorial',
+      builder: (context, state) => AppTutorialScreen(),
+    ),
+    GoRoute(
+      path: '/infinitescroll',
+      builder: (context, state) => InfiniteScrollScreen(),
+    ),
+    GoRoute(
+      path: '/counter_screen',
+      builder: (context, state) => CounterScreen(),
+    ),
+    GoRoute(
+      path: '/theme-changer',
+      builder: (context, state) => const ThemeChangerScreen(),
+    ),
+
   ],
 );
