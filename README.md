@@ -10,7 +10,7 @@
 - Implementar una navegación moderna y escalable con `GoRouter`.
 - Aplicar una arquitectura modular y mantenible.
 - Utilizar `Riverpod` como sistema de gestión de estado.
-- Implementar cambio dinámico de tema.
+- Cambio dinámico entre tema claro , oscuro y el color principal de la aplicacion.
 
 ---
 
