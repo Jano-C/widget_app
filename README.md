@@ -10,7 +10,7 @@
 - Implementar una navegación moderna y escalable con `GoRouter`.
 - Aplicar una arquitectura modular y mantenible.
 - Utilizar `Riverpod` como sistema de gestión de estado.
-- Implementar cambio dinámico de tema (claro/oscuro) a través de un `ThemeNotifier`.
+- Implementar cambio dinámico de tema.
 
 ---
 
@@ -20,4 +20,3 @@
 - **Dart** – Lenguaje de programación utilizado.
 - **Riverpod** – Gestión de estado reactiva y desacoplada.
 - **GoRouter** – Navegación declarativa y robusta.
-- **Flutter Hooks** – Para lógica de componentes más limpia y reutilizable.
