@@ -145,6 +145,7 @@ const _CardType3({
 final colors = Theme.of(context).colorScheme;
 
     return Card(
+      // ignore: deprecated_member_use
       color: colors.surfaceVariant,
       elevation: elevation,
       child: Padding(
@@ -198,6 +199,7 @@ final colors = Theme.of(context).colorScheme;
             alignment: Alignment.topRight,
             child: Container(
               decoration :BoxDecoration(
+                // ignore: deprecated_member_use
                 color: colors.surface.withOpacity(0.5),
                 borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20),)
               ),

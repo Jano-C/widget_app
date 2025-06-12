@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
 import 'package:widget_app/presentation/providers/counter_providers.dart';
 import 'package:widget_app/presentation/providers/theme_provider.dart';
 
@@ -10,7 +9,7 @@ class CounterScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final ClickCounter = ref.watch(counterprovider);
+    final clickCounter = ref.watch(counterprovider);
     final isDarkmode = ref.watch(isDarkmodeProvider);
     
     
@@ -28,7 +27,7 @@ class CounterScreen extends ConsumerWidget {
          
         ],
       ),
-      body: Center(child:  Text('valor : $ClickCounter', style: Theme.of(context).textTheme.titleLarge)),
+      body: Center(child:  Text('valor : $clickCounter', style: Theme.of(context).textTheme.titleLarge)),
 
       floatingActionButton: FloatingActionButton(
         onPressed: () {

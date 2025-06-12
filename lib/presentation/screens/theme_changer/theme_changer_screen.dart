@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:widget_app/presentation/screens/screens.dart';
 
@@ -45,6 +45,7 @@ class _ThemeChangerView extends ConsumerWidget {
     final changeColor = ref.watch(themeNotifierProvider).selectedColor;
     
    
+    // ignore: non_constant_identifier_names
     final List<Color> Colors = ref.watch(colorListProvider);
 
   //final int selectedColor = ref.watch(selectedColorProvider);
